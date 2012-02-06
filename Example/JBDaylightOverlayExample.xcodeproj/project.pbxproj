@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FBA28414E07156009D13CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBA28314E07156009D13CC /* UIKit.framework */; };
+		42FBA28614E07156009D13CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBA28514E07156009D13CC /* Foundation.framework */; };
+		42FBA28814E07156009D13CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBA28714E07156009D13CC /* CoreGraphics.framework */; };
+		42FBA28E14E07156009D13CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FBA28C14E07156009D13CC /* InfoPlist.strings */; };
+		42FBA29014E07156009D13CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBA28F14E07156009D13CC /* main.m */; };
+		42FBA29414E07156009D13CC /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBA29314E07156009D13CC /* JBAppDelegate.m */; };
+		42FBA29714E07156009D13CC /* JBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBA29614E07156009D13CC /* JBMapViewController.m */; };
+		42FBA29A14E07156009D13CC /* JBMapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FBA29814E07156009D13CC /* JBMapViewController_iPhone.xib */; };
+		42FBA29D14E07156009D13CC /* JBMapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FBA29B14E07156009D13CC /* JBMapViewController_iPad.xib */; };
+		42FBA2A914E071B8009D13CC /* JBDaylightOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBA2A814E071B8009D13CC /* JBDaylightOverlay.m */; };
+		42FBA2AD14E071EB009D13CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBA2AC14E071EB009D13CC /* MapKit.framework */; };
+		42FBA2AF14E071F0009D13CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBA2AE14E071F0009D13CC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42FBA27F14E07156009D13CC /* JBDaylightOverlayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBDaylightOverlayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FBA28314E07156009D13CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42FBA28514E07156009D13CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42FBA28714E07156009D13CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42FBA28B14E07156009D13CC /* JBDaylightOverlayExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JBDaylightOverlayExample-Info.plist"; sourceTree = "<group>"; };
+		42FBA28D14E07156009D13CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42FBA28F14E07156009D13CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42FBA29114E07156009D13CC /* JBDaylightOverlayExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JBDaylightOverlayExample-Prefix.pch"; sourceTree = "<group>"; };
+		42FBA29214E07156009D13CC /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		42FBA29314E07156009D13CC /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
+		42FBA29514E07156009D13CC /* JBMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBMapViewController.h; sourceTree = "<group>"; };
+		42FBA29614E07156009D13CC /* JBMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBMapViewController.m; sourceTree = "<group>"; };
+		42FBA29914E07156009D13CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JBMapViewController_iPhone.xib; sourceTree = "<group>"; };
+		42FBA29C14E07156009D13CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JBMapViewController_iPad.xib; sourceTree = "<group>"; };
+		42FBA2A714E071B8009D13CC /* JBDaylightOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBDaylightOverlay.h; path = ../Classes/JBDaylightOverlay.h; sourceTree = "<group>"; };
+		42FBA2A814E071B8009D13CC /* JBDaylightOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBDaylightOverlay.m; path = ../Classes/JBDaylightOverlay.m; sourceTree = "<group>"; };
+		42FBA2AC14E071EB009D13CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		42FBA2AE14E071F0009D13CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FBA27C14E07156009D13CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FBA2AF14E071F0009D13CC /* CoreLocation.framework in Frameworks */,
+				42FBA2AD14E071EB009D13CC /* MapKit.framework in Frameworks */,
+				42FBA28414E07156009D13CC /* UIKit.framework in Frameworks */,
+				42FBA28614E07156009D13CC /* Foundation.framework in Frameworks */,
+				42FBA28814E07156009D13CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FBA27414E07156009D13CC = {
+			isa = PBXGroup;
+			children = (
+				42FBA2AB14E071C4009D13CC /* JBDaylightOverlay */,
+				42FBA28914E07156009D13CC /* JBDaylightOverlayExample */,
+				42FBA28214E07156009D13CC /* Frameworks */,
+				42FBA28014E07156009D13CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FBA28014E07156009D13CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FBA27F14E07156009D13CC /* JBDaylightOverlayExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FBA28214E07156009D13CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42FBA2AE14E071F0009D13CC /* CoreLocation.framework */,
+				42FBA2AC14E071EB009D13CC /* MapKit.framework */,
+				42FBA28314E07156009D13CC /* UIKit.framework */,
+				42FBA28514E07156009D13CC /* Foundation.framework */,
+				42FBA28714E07156009D13CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42FBA28914E07156009D13CC /* JBDaylightOverlayExample */ = {
+			isa = PBXGroup;
+			children = (
+				42FBA29214E07156009D13CC /* JBAppDelegate.h */,
+				42FBA29314E07156009D13CC /* JBAppDelegate.m */,
+				42FBA29514E07156009D13CC /* JBMapViewController.h */,
+				42FBA29614E07156009D13CC /* JBMapViewController.m */,
+				42FBA29814E07156009D13CC /* JBMapViewController_iPhone.xib */,
+				42FBA29B14E07156009D13CC /* JBMapViewController_iPad.xib */,
+				42FBA28A14E07156009D13CC /* Supporting Files */,
+			);
+			path = JBDaylightOverlayExample;
+			sourceTree = "<group>";
+		};
+		42FBA28A14E07156009D13CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FBA28B14E07156009D13CC /* JBDaylightOverlayExample-Info.plist */,
+				42FBA28C14E07156009D13CC /* InfoPlist.strings */,
+				42FBA28F14E07156009D13CC /* main.m */,
+				42FBA29114E07156009D13CC /* JBDaylightOverlayExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FBA2AB14E071C4009D13CC /* JBDaylightOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				42FBA2A714E071B8009D13CC /* JBDaylightOverlay.h */,
+				42FBA2A814E071B8009D13CC /* JBDaylightOverlay.m */,
+			);
+			name = JBDaylightOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FBA27E14E07156009D13CC /* JBDaylightOverlayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FBA2A014E07156009D13CC /* Build configuration list for PBXNativeTarget "JBDaylightOverlayExample" */;
+			buildPhases = (
+				42FBA27B14E07156009D13CC /* Sources */,
+				42FBA27C14E07156009D13CC /* Frameworks */,
+				42FBA27D14E07156009D13CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBDaylightOverlayExample;
+			productName = JBDaylightOverlayExample;
+			productReference = 42FBA27F14E07156009D13CC /* JBDaylightOverlayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FBA27614E07156009D13CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 42FBA27914E07156009D13CC /* Build configuration list for PBXProject "JBDaylightOverlayExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42FBA27414E07156009D13CC;
+			productRefGroup = 42FBA28014E07156009D13CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FBA27E14E07156009D13CC /* JBDaylightOverlayExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FBA27D14E07156009D13CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FBA28E14E07156009D13CC /* InfoPlist.strings in Resources */,
+				42FBA29A14E07156009D13CC /* JBMapViewController_iPhone.xib in Resources */,
+				42FBA29D14E07156009D13CC /* JBMapViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FBA27B14E07156009D13CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FBA29014E07156009D13CC /* main.m in Sources */,
+				42FBA29414E07156009D13CC /* JBAppDelegate.m in Sources */,
+				42FBA29714E07156009D13CC /* JBMapViewController.m in Sources */,
+				42FBA2A914E071B8009D13CC /* JBDaylightOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42FBA28C14E07156009D13CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FBA28D14E07156009D13CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42FBA29814E07156009D13CC /* JBMapViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FBA29914E07156009D13CC /* en */,
+			);
+			name = JBMapViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		42FBA29B14E07156009D13CC /* JBMapViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FBA29C14E07156009D13CC /* en */,
+			);
+			name = JBMapViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FBA29E14E07156009D13CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FBA29F14E07156009D13CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FBA2A114E07156009D13CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBDaylightOverlayExample/JBDaylightOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "JBDaylightOverlayExample/JBDaylightOverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42FBA2A214E07156009D13CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBDaylightOverlayExample/JBDaylightOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "JBDaylightOverlayExample/JBDaylightOverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FBA27914E07156009D13CC /* Build configuration list for PBXProject "JBDaylightOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FBA29E14E07156009D13CC /* Debug */,
+				42FBA29F14E07156009D13CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FBA2A014E07156009D13CC /* Build configuration list for PBXNativeTarget "JBDaylightOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FBA2A114E07156009D13CC /* Debug */,
+				42FBA2A214E07156009D13CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FBA27614E07156009D13CC /* Project object */;
+}

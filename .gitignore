@@ -1,0 +1,8 @@
+Example/build
+Example/JBDaylightOverlayExample.xcodeproj/*.mode1v3
+Example/JBDaylightOverlayExample.xcodeproj/*.pbxuser
+Example/JBDaylightOverlayExample.xcodeproj/*.perspectivev3
+Example/JBDaylightOverlayExample.xcodeproj/*.xcuserdatad
+Example/JBDaylightOverlayExample.xcodeproj/project.xcworkspace/
+Example/JBDaylightOverlayExample.xcodeproj/xcuserdata/
+.DS_Store
