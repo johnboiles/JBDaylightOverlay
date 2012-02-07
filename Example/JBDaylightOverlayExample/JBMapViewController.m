@@ -26,10 +26,15 @@
 
 - (void)viewDidLoad {
   _mapView.delegate = self;
-  JBDaylightOverlay *daylightOverlay = [[JBDaylightOverlay alloc] init];
-  [_mapView addOverlay:daylightOverlay];
-  [daylightOverlay startUpdating];
-  [daylightOverlay autorelease];
+  _daylightOverlay = [[JBDaylightOverlay alloc] init];
+  [_mapView addOverlay:_daylightOverlay];
+  [_daylightOverlay startUpdating];
+}
+
+- (void)viewDidUnload {
+  [_daylightOverlay stopUpdating];
+  [_daylightOverlay release];
+  _daylightOverlay = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

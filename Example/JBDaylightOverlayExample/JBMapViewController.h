@@ -22,8 +22,11 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
+@class JBDaylightOverlay;
+
 @interface JBMapViewController : UIViewController <MKMapViewDelegate> {
   IBOutlet MKMapView *_mapView;
+  JBDaylightOverlay *_daylightOverlay;
 }
 
 @end
